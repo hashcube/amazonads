@@ -1,0 +1,10 @@
+<!--START_PLUGINS_MANIFEST-->
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<!--END_PLUGINS_MANIFEST-->
+<!--START_PLUGINS_APPLICATION-->
+  <!--Amazon ads-->
+  <meta-data android:name="AMAZON_APP_KEY" android:value="" />
+  <activity android:name="com.amazon.device.ads.AdActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+<!--END_PLUGINS_APPLICATION-->

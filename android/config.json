@@ -1,0 +1,7 @@
+{
+    "copyFiles": ["AmazonAdPlugin.java"],
+    "libraries": [],
+    "jars": ["amazon-ads-5.3.22.jar"],
+    "injectionXML": "manifest.xml",
+	"injectionXSL": "manifest.xsl"
+}
