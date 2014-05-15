@@ -4,9 +4,6 @@ import com.tealeaf.logger;
 import com.tealeaf.EventQueue;
 import com.tealeaf.plugin.IPlugin;
 import java.io.*;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import com.amazon.device.ads.*;
 
@@ -15,7 +12,6 @@ import android.content.Intent;
 import android.content.Context;
 import android.util.Log;
 import android.os.Bundle;
-import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 
