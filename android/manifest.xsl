@@ -10,7 +10,7 @@
     <meta-data android:name="AMAZON_APP_KEY" android:value="{$amazonAppKey}"/>
   </xsl:template>
 
-  <xsl:template match="activity[@android:name='com.facebook.LoginActivity']">
+  <xsl:template match="activity[@android:name='com.amazon.device.ads.AdActivity']">
     <activity android:name="com.amazon.device.ads.AdActivity"
               android:configChanges="keyboardHidden|orientation|screenSize"/>
   </xsl:template>
