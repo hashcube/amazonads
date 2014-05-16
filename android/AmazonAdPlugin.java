@@ -85,9 +85,9 @@ public class AmazonAdPlugin implements IPlugin {
 
     //FOR DEBUGGING ONLY
     // For debugging purposes enable logging, but disable for production builds.
-    AdRegistration.enableLogging(true);
+    AdRegistration.enableLogging(false);
     // For debugging purposes flag all ad requests as tests, but set to false for production builds.
-    AdRegistration.enableTesting(true);
+    AdRegistration.enableTesting(false);
 
     this.interstitialAd = new InterstitialAd(activity);
     this.interstitialAd.setListener(new PluginDelegate())
