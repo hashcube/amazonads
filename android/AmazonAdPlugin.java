@@ -122,10 +122,19 @@ public class AmazonAdPlugin implements IPlugin {
   public void onResume() {
   }
 
+  public void onRenderResume() {
+  }
+
   public void onStart() {
   }
 
+  public void onFirstRun() {
+  }
+
   public void onPause() {
+  }
+
+  public void onRenderPause() {
   }
 
   public void onStop() {
