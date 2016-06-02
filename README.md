@@ -9,9 +9,9 @@ Install the addon with
 Include it in the `manifest.json` file under the "addons" section for your game:
 
 ~~~
-"addons": [
-	"amazonads"
-],
+{
+	"dependencies": "https://github.com/hashcube/amazonads.git#master"
+}
 ~~~
 
 To specify your game's AppKey in the android section
